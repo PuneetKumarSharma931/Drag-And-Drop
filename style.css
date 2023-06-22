@@ -1,0 +1,61 @@
+
+body {
+
+    background-color: slateblue;
+}
+
+.whiteBox {
+
+    background-color: white;
+    height: 155px;
+    width: 155px;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.imgBox {
+
+    background-image: url('image.jpg');
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.hide {
+
+    display: none;
+}
+
+.hold {
+
+    border: 3px dotted red;
+}
+
+.dragOver {
+
+    transform: scale(1.1);
+    transition: all 200ms;
+    background-color: violet;
+    border: 2px dashed black;
+}
+
+.dropTransit {
+
+    transform: scale(1);
+    transition: all 200ms;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.dragLeaveTransit {
+
+    transform: scale(1);
+    transition: all 200ms;
+    background-color: white;
+    border: 3px solid black;
+
+}
